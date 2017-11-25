@@ -1,0 +1,19 @@
+{
+  "name": "cryptokitties-contrib",
+  "version": "0.0.1",
+  "description": "A package to interact with the API of cryptokitties.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cryptokitties",
+    "api",
+    "client"
+  ],
+  "author": "iovoid",
+  "license": "MIT",
+  "dependencies": {
+    "request-promise": "^4.2.2"
+  }
+}
