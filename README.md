@@ -14,12 +14,9 @@ Takes as a argument a object with the options, whith a structure of:
 ```
 ### listAuctions (type = "sale", status="open", limit, offset=0)
 Makes a list of the ongoing auctions.
-### getAllKitties ()
-Gets a list of all existing kitties.
 ### getKitten (id)
 Gets information about a specific cat.
 ### getMyProfile ()
 Gets your proffile.
 ### getUserKitties (address, limit, offset=0)
 Gets the kitties of a ethereum address.
-###

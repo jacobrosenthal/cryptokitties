@@ -26,6 +26,7 @@ function CryptokittiesClient(opts = {}){
     };
     return request(o).then(d=>d.auctions);
   }
+/*
   self.getAllKitties = function(limit=1000000000000, offset=0) {
     let o = self.skeleton(`kitties`);
     o.qs = {
@@ -34,6 +35,7 @@ function CryptokittiesClient(opts = {}){
     };
     return request(o).then(d=>d.kitties);
   }
+*/
   self.getKitten = function(id) {
     let o = self.skeleton(`kitties/${id}`);
     return request(o);
